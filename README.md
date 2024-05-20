@@ -8,7 +8,7 @@ A simple and flexible Electron app kit
 
 ## 🎯 Features
 
-* 🪄️ **Ease of Use**: Simple and easy to understand API
+* 👌️ **Ease of Use**: Simple and easy to understand API
 * 🪝 **Hooks**: A flexible system for working with hooks
 * 📦 **Modules**: A modular system for working with the application
 * 🌐 **Locales**: A system for working with translations
@@ -31,7 +31,7 @@ npm install @hywax/nue-kit -D
 
 ## ⚡ Usage
 
-To fully explore all the features of Nue Kit, check out the repository for a ready-made [starter template](https://github.com/hywax/electron-nuxt-template)
+To fully explore all the features of Nue Kit, check out the repository for a ready-made [starter template](https://github.com/hywax/electron-vue-template)
 
 ```typescript
 import { BrowserWindow, app } from 'electron'

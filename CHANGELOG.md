@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v0.2.0
+
+[compare changes](https://github.com/hywax/nue-kit/compare/v0.1.0...v0.2.0)
+
+### 🏡 Chore
+
+- ⚠️  Change namespace package ([5c33785](https://github.com/hywax/nue-kit/commit/5c33785))
+- ⚠️  Create nue config ([608a770](https://github.com/hywax/nue-kit/commit/608a770))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Change namespace package ([5c33785](https://github.com/hywax/nue-kit/commit/5c33785))
+- ⚠️  Create nue config ([608a770](https://github.com/hywax/nue-kit/commit/608a770))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.1.0
 
 

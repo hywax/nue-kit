@@ -19,6 +19,8 @@ export interface Hooks {
 }
 
 export interface NueConfig {
+  window: BrowserWindow
+  store: Store
   isProduction: boolean
   singleInstance: boolean
   modules?: Module[]
@@ -39,7 +41,8 @@ export interface Nue {
   }
 }
 
-export async function createNue(window: BrowserWindow, store: Store, config: NueConfig): Promise<Nue> {
+export async function createNue(config: NueConfig): Promise<Nue> {
+  const { store, window } = config
   const hooks = createHooks<Hooks>()
   const i18n = createI18n(config.locales || { en: {} }, store, hooks)
 

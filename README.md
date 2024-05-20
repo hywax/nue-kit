@@ -46,11 +46,13 @@ function createMainWindowApp() {
     height: 480,
   })
 
-  return createNue(mainWindow, store, {
+  return createNue({
+    store,
+    window: mainWindow,
     isProduction: false,
     singleInstance: true,
     locales: { /* ... */ },
-    modules: [ /* ... */ ],
+    modules: [],
   })
 }
 
@@ -66,11 +68,9 @@ A huge thank you to everyone who is helping to improve. Thanks to you, the proje
 
 <img src="https://raw.githubusercontent.com/hywax/nue-kit/main/.github/static/contributors.svg" alt="VitePress Yandex Metrika Contributors" width="100%"/>
 
-
 ## 📄 License
 
 The Nue Kit is based on open source code, according to [MIT License](LICENSE).
-
 
 <!-- Badges -->
 

@@ -1,7 +1,7 @@
 import { ipcMain } from 'electron'
 import { getProperty } from 'dot-prop'
 import type { Store } from './store'
-import { IPC_I18N_CHANGE } from './ipc'
+import { IPC_I18N_CHANGE, IPC_I18N_MESSAGES } from './ipc'
 import type { Nue } from './nue'
 import { logger } from './logger'
 
@@ -49,5 +49,10 @@ export function subscribeIpcI18n(i18n: I18n) {
   ipcMain.on(IPC_I18N_CHANGE, (_, value: Locale, modifyStore: boolean = true) => {
     logger.debug(`I18n ipc: changing locale to ${value}`)
     i18n.setLocale(value, modifyStore)
+  })
+
+  ipcMain.handle(IPC_I18N_MESSAGES, () => {
+    logger.debug('I18n ipc: getting messages')
+    return i18n.getMessages()
   })
 }

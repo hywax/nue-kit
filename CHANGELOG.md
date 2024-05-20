@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.2.1
+
+[compare changes](https://github.com/hywax/nue-kit/compare/v0.2.0...v0.2.1)
+
+### 📖 Documentation
+
+- Change template link ([c564392](https://github.com/hywax/nue-kit/commit/c564392))
+
+### 🏡 Chore
+
+- I18n handle messages ([acda98f](https://github.com/hywax/nue-kit/commit/acda98f))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.2.0
 
 [compare changes](https://github.com/hywax/nue-kit/compare/v0.1.0...v0.2.0)

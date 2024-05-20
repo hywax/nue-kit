@@ -20,13 +20,13 @@ A simple and flexible Electron app kit
 
 ```shell
 # Using pnpm
-pnpm add nue-kit -D
+pnpm add @hywax/nue-kit -D
 
 # Using yarn
-yarn add nue-kit -D
+yarn add @hywax/nue-kit -D
 
 # Using npm
-npm install nue-kit -D
+npm install @hywax/nue-kit -D
 ```
 
 ## ⚡ Usage
@@ -35,7 +35,7 @@ To fully explore all the features of Nue Kit, check out the repository for a rea
 
 ```typescript
 import { BrowserWindow, app } from 'electron'
-import { createNue, createStore } from 'nue-kit'
+import { createNue, createStore } from '@hywax/nue-kit'
 
 function createMainWindowApp() {
   const store = createStore()
@@ -74,9 +74,9 @@ The Nue Kit is based on open source code, according to [MIT License](LICENSE).
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/nue-kit/latest.svg?logo=hackthebox&color=ff6e6e&logoColor=fff
+[npm-version-src]: https://img.shields.io/npm/v/@hywax/nue-kit/latest.svg?logo=hackthebox&color=ff6e6e&logoColor=fff
 [npm-version-href]: https://npmjs.com/package/nue-kit
-[npm-downloads-src]: https://img.shields.io/npm/dm/nue-kit.svg?colorB=ff6e6e
-[npm-downloads-href]: https://npmjs.com/package/nue-kit
+[npm-downloads-src]: https://img.shields.io/npm/dm/@hywax/nue-kit.svg?colorB=ff6e6e
+[npm-downloads-href]: https://npmjs.com/package/@hywax/nue-kit
 [license-src]: https://img.shields.io/badge/License-MIT-ff6e6e?logo=opensourceinitiative&logoColor=fff
-[license-href]: https://npmjs.com/package/nue-kit
+[license-href]: https://npmjs.com/package/@hywax/nue-kit

@@ -1,5 +1,5 @@
 {
-  "name": "nue-kit",
+  "name": "@hywax/nue-kit",
   "type": "module",
   "version": "0.1.0",
   "description": "A simple and flexible Electron app kit",

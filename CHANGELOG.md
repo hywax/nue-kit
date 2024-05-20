@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.2.2
+
+[compare changes](https://github.com/hywax/nue-kit/compare/v0.2.1...v0.2.2)
+
+### 🏡 Chore
+
+- Provide type store ([f8f0039](https://github.com/hywax/nue-kit/commit/f8f0039))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.2.1
 
 [compare changes](https://github.com/hywax/nue-kit/compare/v0.2.0...v0.2.1)

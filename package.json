@@ -34,7 +34,7 @@
     "lint:fix": "eslint . --fix"
   },
   "peerDependencies": {
-    "electron": "^30.0.6"
+    "electron": "^30.0.8"
   },
   "dependencies": {
     "conf": "^12.0.0",
@@ -49,7 +49,7 @@
     "@commitlint/config-conventional": "^19.2.2",
     "@types/node": "^20.12.12",
     "changelogen": "^0.5.5",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^15.2.4",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0"

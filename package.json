@@ -34,22 +34,22 @@
     "lint:fix": "eslint . --fix"
   },
   "peerDependencies": {
-    "electron": "^30.1.0"
+    "electron": "^30.1.1"
   },
   "dependencies": {
     "conf": "^12.0.0",
     "defu": "^6.1.4",
     "dot-prop": "^9.0.0",
     "hookable": "^5.5.3",
-    "pino": "^9.1.0"
+    "pino": "^9.2.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.21.0",
+    "@antfu/eslint-config": "^2.21.1",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@types/node": "^20.14.2",
     "changelogen": "^0.5.5",
-    "lint-staged": "^15.2.5",
+    "lint-staged": "^15.2.7",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0"

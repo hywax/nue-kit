@@ -47,7 +47,7 @@
     "@antfu/eslint-config": "^2.21.1",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@types/node": "^20.14.8",
+    "@types/node": "^20.14.9",
     "changelogen": "^0.5.5",
     "lint-staged": "^15.2.7",
     "simple-git-hooks": "^2.11.1",

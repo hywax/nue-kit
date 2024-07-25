@@ -34,14 +34,14 @@
     "lint:fix": "eslint . --fix"
   },
   "peerDependencies": {
-    "electron": "^30.3.0"
+    "electron": "^30.3.1"
   },
   "dependencies": {
     "conf": "^12.0.0",
     "defu": "^6.1.4",
     "dot-prop": "^9.0.0",
     "hookable": "^5.5.3",
-    "pino": "^9.3.1"
+    "pino": "^9.3.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.23.2",

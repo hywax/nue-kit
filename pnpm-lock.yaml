@@ -18,8 +18,8 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0
       electron:
-        specifier: ^30.3.1
-        version: 30.3.1
+        specifier: ^31.3.1
+        version: 31.3.1
       hookable:
         specifier: ^5.5.3
         version: 5.5.3
@@ -1431,8 +1431,8 @@ packages:
   electron-to-chromium@1.4.774:
     resolution: {integrity: sha512-132O1XCd7zcTkzS3FgkAzKmnBuNJjK8WjcTtNuoylj7MYbqw5eXehjQ5OK91g0zm7OTKIPeaAG4CPoRfD9M1Mg==}
 
-  electron@30.3.1:
-    resolution: {integrity: sha512-Ai/OZ7VlbFAVYMn9J5lyvtr+ZWyEbXDVd5wBLb5EVrp4352SRmMAmN5chcIe3n9mjzcgehV9n4Hwy15CJW+YbA==}
+  electron@31.3.1:
+    resolution: {integrity: sha512-9fiuWlRhBfygtcT+auRd/WdBK/f8LZZcrpx0RjpXhH2DPTP/PfnkC4JB1PW55qCbGbh4wAgkYbf4ExIag8oGCA==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -4772,7 +4772,7 @@ snapshots:
 
   electron-to-chromium@1.4.774: {}
 
-  electron@30.3.1:
+  electron@31.3.1:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 20.14.13

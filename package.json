@@ -34,7 +34,7 @@
     "lint:fix": "eslint . --fix"
   },
   "peerDependencies": {
-    "electron": "^30.5.0"
+    "electron": "^30.5.1"
   },
   "dependencies": {
     "conf": "^12.0.0",

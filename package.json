@@ -48,7 +48,7 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@types/node": "^20.16.5",
-    "changelogen": "^0.5.5",
+    "changelogen": "^0.5.7",
     "lint-staged": "^15.2.10",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.6.2",

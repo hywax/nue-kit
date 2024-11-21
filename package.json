@@ -37,7 +37,7 @@
     "electron": "^30.5.1"
   },
   "dependencies": {
-    "conf": "^12.0.0",
+    "conf": "^13.0.1",
     "defu": "^6.1.4",
     "dot-prop": "^9.0.0",
     "hookable": "^5.5.3",

@@ -32,13 +32,13 @@ importers:
         version: 2.27.3(@typescript-eslint/utils@8.3.0(eslint@8.57.0)(typescript@5.7.2))(@vue/compiler-sfc@3.4.27)(eslint@8.57.0)(typescript@5.7.2)
       '@commitlint/cli':
         specifier: ^19.6.0
-        version: 19.6.0(@types/node@20.17.8)(typescript@5.7.2)
+        version: 19.6.0(@types/node@22.10.1)(typescript@5.7.2)
       '@commitlint/config-conventional':
         specifier: ^19.6.0
         version: 19.6.0
       '@types/node':
-        specifier: ^20.17.8
-        version: 20.17.8
+        specifier: ^22.10.1
+        version: 22.10.1
       changelogen:
         specifier: ^0.5.7
         version: 0.5.7
@@ -768,6 +768,9 @@ packages:
 
   '@types/node@20.17.8':
     resolution: {integrity: sha512-ahz2g6/oqbKalW9sPv6L2iRbhLnojxjYWspAqhjvqSWBgGebEJT5GvRmk0QXPj3sbC6rU0GTQjPLQkmR8CObvA==}
+
+  '@types/node@22.10.1':
+    resolution: {integrity: sha512-qKgsUwfHZV2WCWLAnVP1JqnpE6Im6h3Y0+fYgMTasNQ7V++CBX5OT1as0g0f+OyubbFqhf6XVNIsmN4IIhEgGQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -3079,6 +3082,9 @@ packages:
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
+  undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+
   unicorn-magic@0.1.0:
     resolution: {integrity: sha512-lRfVq8fE8gz6QMBuDM6a+LO3IAzTi05H6gCVaUpir2E1Rwpo4ZUog45KpNXKC/Mn3Yb9UDuHumeFTo9iV/D9FQ==}
     engines: {node: '>=18'}
@@ -3388,11 +3394,11 @@ snapshots:
       picocolors: 1.0.1
       sisteransi: 1.0.5
 
-  '@commitlint/cli@19.6.0(@types/node@20.17.8)(typescript@5.7.2)':
+  '@commitlint/cli@19.6.0(@types/node@22.10.1)(typescript@5.7.2)':
     dependencies:
       '@commitlint/format': 19.5.0
       '@commitlint/lint': 19.6.0
-      '@commitlint/load': 19.5.0(@types/node@20.17.8)(typescript@5.7.2)
+      '@commitlint/load': 19.5.0(@types/node@22.10.1)(typescript@5.7.2)
       '@commitlint/read': 19.5.0
       '@commitlint/types': 19.5.0
       tinyexec: 0.3.0
@@ -3439,7 +3445,7 @@ snapshots:
       '@commitlint/rules': 19.6.0
       '@commitlint/types': 19.5.0
 
-  '@commitlint/load@19.5.0(@types/node@20.17.8)(typescript@5.7.2)':
+  '@commitlint/load@19.5.0(@types/node@22.10.1)(typescript@5.7.2)':
     dependencies:
       '@commitlint/config-validator': 19.5.0
       '@commitlint/execute-rule': 19.5.0
@@ -3447,7 +3453,7 @@ snapshots:
       '@commitlint/types': 19.5.0
       chalk: 5.3.0
       cosmiconfig: 9.0.0(typescript@5.7.2)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.17.8)(cosmiconfig@9.0.0(typescript@5.7.2))(typescript@5.7.2)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@22.10.1)(cosmiconfig@9.0.0(typescript@5.7.2))(typescript@5.7.2)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -3845,12 +3851,12 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.17.8
+      '@types/node': 22.10.1
       '@types/responselike': 1.0.3
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
-      '@types/node': 20.17.8
+      '@types/node': 22.10.1
 
   '@types/eslint@8.56.10':
     dependencies:
@@ -3870,7 +3876,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.17.8
+      '@types/node': 22.10.1
 
   '@types/mdast@3.0.15':
     dependencies:
@@ -3880,19 +3886,23 @@ snapshots:
     dependencies:
       undici-types: 6.19.8
 
+  '@types/node@22.10.1':
+    dependencies:
+      undici-types: 6.20.0
+
   '@types/normalize-package-data@2.4.4': {}
 
   '@types/resolve@1.20.2': {}
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.17.8
+      '@types/node': 22.10.1
 
   '@types/unist@2.0.10': {}
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 20.17.8
+      '@types/node': 22.10.1
     optional: true
 
   '@typescript-eslint/eslint-plugin@8.3.0(@typescript-eslint/parser@8.3.0(eslint@8.57.0)(typescript@5.7.2))(eslint@8.57.0)(typescript@5.7.2)':
@@ -4362,9 +4372,9 @@ snapshots:
     dependencies:
       browserslist: 4.23.0
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@20.17.8)(cosmiconfig@9.0.0(typescript@5.7.2))(typescript@5.7.2):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@22.10.1)(cosmiconfig@9.0.0(typescript@5.7.2))(typescript@5.7.2):
     dependencies:
-      '@types/node': 20.17.8
+      '@types/node': 22.10.1
       cosmiconfig: 9.0.0(typescript@5.7.2)
       jiti: 1.21.6
       typescript: 5.7.2
@@ -6342,6 +6352,8 @@ snapshots:
       - vue-tsc
 
   undici-types@6.19.8: {}
+
+  undici-types@6.20.0: {}
 
   unicorn-magic@0.1.0: {}
 
